@@ -13,7 +13,7 @@ class Modules_LdapAuth_Auth extends pm_Hook_Auth
             $port = "636";
         }
 
-        curl_setopt($ch, CURLOPT_URL, $protocol . pm_Settings::get('host') . ":" . $port);
+        curl_setopt($ch, CURLOPT_URL, $protocol . pm_Settings::get('host') . ":" . $port . "/dc=domaingenie,dc=net?sub");
         curl_setopt($ch, CURLOPT_HEADER, false);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         // Force closing TLS channel after login
