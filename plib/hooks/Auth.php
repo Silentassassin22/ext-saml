@@ -24,6 +24,8 @@ class Modules_LdapAuth_Auth extends pm_Hook_Auth
         curl_setopt($ch, CURLOPT_USERPWD, $login . ":" . $password);
         \pm_Log::debug('Sending a request to the LDAP server');
         $result = curl_exec($ch);
+        \pm_Log::info('LDAP server response: ' . curl_getinfo($ch, CURLINFO_HTTP_CODE));
+        \pm_Log::info('LDAP server response: ' . $result);
         if ($result === false) {
             \pm_Log::info('Communication with LDAP server failed: ' . curl_error($ch));
             \pm_Log::info('LDAP server response: ' . curl_getinfo($ch, CURLINFO_HTTP_CODE));
