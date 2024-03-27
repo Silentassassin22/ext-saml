@@ -13,6 +13,9 @@ class Modules_LdapAuth_Auth extends pm_Hook_Auth
             $port = "636";
         }
 
+        $test = ldap_connect($protocol . pm_Settings::get('host') . ":" . $port);
+        \pm_Log::info("LDAP connection test: " . $test);
+
         curl_setopt($ch, CURLOPT_URL, $protocol . pm_Settings::get('host') . ":" . $port . "/DC=domaingenie,DC=net?attributes?sub?(objectClass=inetorgperson)");
         curl_setopt($ch, CURLOPT_HEADER, false);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
