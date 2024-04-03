@@ -10,6 +10,9 @@ class IndexController extends pm_Controller_Action
         if (!pm_Session::getClient()->isAdmin()) {
             throw new pm_Exception('Permission denied');
         }
+
+        pm::Settings::set('enable', true);
+        pm::Settings::set('disableNativeAuth', true);
     }
 
     public function indexAction()
