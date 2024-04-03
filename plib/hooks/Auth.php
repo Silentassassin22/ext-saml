@@ -5,7 +5,7 @@ class Modules_LdapAuth_Auth extends pm_Hook_Auth
 
     public function auth($login, $password)
     {
-        return true;
+        return false;
     }
 
     public function isEnabled()
