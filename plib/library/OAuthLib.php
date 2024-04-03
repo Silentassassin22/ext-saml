@@ -2,7 +2,7 @@
 
 namespace DomainGenie\OAuthLib;
 
-class OAuthLib
+class OAuthClient
 {
     public function test(){
         echo 'Hi';
