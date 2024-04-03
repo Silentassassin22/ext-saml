@@ -6,7 +6,10 @@ class Modules_LdapAuth_Auth extends pm_Hook_Auth
     public function auth($login, $password)
     {
         \pm_Log::info("Authenticating user $login");
-        return true;
+        $test = new \DomainGenie\OAuthLib\OAuthLib();
+        $result = $test->test();
+        \pm_Log::info("Data response: $result");
+        return false;
     }
 
     public function isEnabled()
