@@ -1,7 +1,5 @@
 <?php
 
-namespace DomainGenie\OAuth;
-
 class OAuthClient
 {
     public static function test(): string{
