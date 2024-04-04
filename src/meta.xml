@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 1999-2020. Plesk International GmbH. -->
 <module>
-  <id>ext-oauth2</id>
+  <id>oauth-sso</id>
   <name>OAuth2 SSO</name>
   <description>Authentication via LDAP.</description>
   <category>auth</category>
