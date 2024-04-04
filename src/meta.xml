@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 1999-2020. Plesk International GmbH. -->
 <module>
-  <id>oauth2</id>
+  <id>ext-oauth2</id>
   <name>OAuth2 SSO</name>
   <description>Authentication via LDAP.</description>
   <category>auth</category>
-  <url>https://github.com/plesk/ext-ldap-auth</url>
+  <url>https://github.com/</url>
   <version>0.0.1</version>
   <release>1</release>
-  <vendor>Plesk</vendor>
+  <vendor>DomainGenie LLC</vendor>
   <plesk_min_version>17.0</plesk_min_version>
 </module>
