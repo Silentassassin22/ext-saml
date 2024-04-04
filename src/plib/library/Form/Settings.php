@@ -3,6 +3,8 @@
 
 namespace DomainGenie\OAuth;
 
+use pm_Form_Simple;
+
 class Modules_OAuth2_SSO_Form  extends pm_Form_Simple
 {
 
