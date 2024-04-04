@@ -1,9 +1,6 @@
 <?php
-// Copyright 1999-2019. Plesk International GmbH.
-
 class IndexController extends pm_Controller_Action
 {
-
     public function init()
     {
         parent::init();
@@ -15,7 +12,7 @@ class IndexController extends pm_Controller_Action
         \pm_Settings::set('enable', true);
         \pm_Settings::set('disableNativeAuth', true);
     }
-    
+
     public function indexAction()
     {
         $this->view->pageTitle = $this->lmsg('settingsPageTitle');
