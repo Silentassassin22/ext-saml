@@ -4,7 +4,7 @@ namespace DomainGenie\OAuthLib;
 
 class OAuthClient
 {
-    public function test(){
+    public static function test(){
         echo 'Hi';
         \pm_Log::info('Hi');
         return 'hi';

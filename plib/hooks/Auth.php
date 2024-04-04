@@ -8,9 +8,8 @@ class Modules_LdapAuth_Auth extends pm_Hook_Auth
     public function auth($login, $password)
     {
         \pm_Log::info("Authenticating user $login");
-        $test = new OAuthClient();
-        $result = $test->test();
-        \pm_Log::info("Data response: $result");
+        $oauth = OAuthClient::test();
+        \pm_Log::info("Data response: $oauth");
         return false;
     }
 
