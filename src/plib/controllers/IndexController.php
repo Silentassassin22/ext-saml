@@ -9,8 +9,8 @@ class IndexController extends pm_Controller_Action
             throw new pm_Exception('Permission denied');
         }
 
-        \pm_Settings::set('enable', true);
-        \pm_Settings::set('disableNativeAuth', true);
+/*        \pm_Settings::set('enable', true);
+        \pm_Settings::set('disableNativeAuth', true);*/
     }
 
     public function indexAction()
