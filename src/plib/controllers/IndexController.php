@@ -1,7 +1,5 @@
 <?php
 // Copyright 1999-2019. Plesk International GmbH.
-
-
 class IndexController extends pm_Controller_Action
 {
 
@@ -21,7 +19,7 @@ class IndexController extends pm_Controller_Action
     {
         $this->view->pageTitle = $this->lmsg('settingsPageTitle');
 
-        $form = new Modules_LdapAuth_Form_Settings();
+        $form = new Modules_OAuth2_SSO_Form();
 
         if ($this->getRequest()->isPost() && $form->isValid($this->getRequest()->getPost())) {
             $form->process();

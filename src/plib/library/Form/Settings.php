@@ -1,6 +1,6 @@
 <?php
 // Copyright 1999-2019. Plesk International GmbH.
-class Modules_LdapAuth_Form_Settings extends pm_Form_Simple
+class Modules_OAuth2_SSO_Form  extends pm_Form_Simple
 {
 
     public function init()
