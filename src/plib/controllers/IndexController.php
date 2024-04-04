@@ -20,7 +20,7 @@ class IndexController extends pm_Controller_Action
     {
         $this->view->pageTitle = $this->lmsg('settingsPageTitle');
 
-        $form = new Modules_OAuth2_SSO_Form();
+        $form = new Modules_OAuth2_SSO_Form_Settings();
 
         if ($this->getRequest()->isPost() && $form->isValid($this->getRequest()->getPost())) {
             $form->process();
