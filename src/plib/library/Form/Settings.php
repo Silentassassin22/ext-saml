@@ -1,5 +1,8 @@
 <?php
 // Copyright 1999-2019. Plesk International GmbH.
+
+namespace DomainGenie\OAuth;
+
 class Modules_OAuth2_SSO_Form  extends pm_Form_Simple
 {
 

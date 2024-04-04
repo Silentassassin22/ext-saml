@@ -1,5 +1,7 @@
 <?php
 // Copyright 1999-2019. Plesk International GmbH.
+use DomainGenie\OAuth\Modules_OAuth2_SSO_Form;
+
 class IndexController extends pm_Controller_Action
 {
 
