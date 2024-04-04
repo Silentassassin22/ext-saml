@@ -10,17 +10,6 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
-  <component name="PhpIncludePathManager">
-    <include_path>
-      <path value="$PROJECT_DIR$/src/plib/vendor/composer" />
-      <path value="$PROJECT_DIR$/src/plib/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/src/plib/vendor/zendframework/zend-memory" />
-      <path value="$PROJECT_DIR$/src/plib/vendor/freedsx/asn1" />
-      <path value="$PROJECT_DIR$/src/plib/vendor/freedsx/ldap" />
-      <path value="$PROJECT_DIR$/src/plib/vendor/freedsx/sasl" />
-      <path value="$PROJECT_DIR$/src/plib/vendor/freedsx/socket" />
-    </include_path>
-  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
