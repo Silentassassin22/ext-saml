@@ -1,6 +1,6 @@
 <?php
 // Copyright 1999-2019. Plesk International GmbH.
-class Modules_LdapAuth_Auth extends pm_Hook_Auth
+class Modules_ExtOauth2_Auth extends pm_Hook_Auth
 {
 
     public function auth($login, $password)

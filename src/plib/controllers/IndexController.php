@@ -17,7 +17,7 @@ class IndexController extends pm_Controller_Action
     {
         $this->view->pageTitle = $this->lmsg('settingsPageTitle');
 
-        $form = new Modules_LdapAuth_Form_Settings();
+        $form = new Modules_ExtOauth2_Form_Settings();
 
         if ($this->getRequest()->isPost() && $form->isValid($this->getRequest()->getPost())) {
             $form->process();
