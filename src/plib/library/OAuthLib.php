@@ -1,6 +1,6 @@
 <?php
 
-namespace plib\library;
+namespace DomainGenie\OAuth;
 
 class OAuthClient
 {
