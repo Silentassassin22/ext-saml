@@ -1,5 +1,13 @@
 <?php
 // Copyright 1999-2019. Plesk International GmbH.
+namespace plib\controllers;
+
+use plib\library\Form\Modules_LdapAuth_Form_Settings;
+use pm;
+use pm_Context;
+use pm_Controller_Action;
+use pm_Session;
+
 class IndexController extends pm_Controller_Action
 {
 

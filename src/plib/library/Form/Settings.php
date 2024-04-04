@@ -1,5 +1,9 @@
 <?php
 // Copyright 1999-2019. Plesk International GmbH.
+namespace plib\library\Form;
+use pm_Form_Simple;
+use pm_Settings;
+
 class Modules_LdapAuth_Form_Settings extends pm_Form_Simple
 {
 

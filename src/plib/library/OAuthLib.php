@@ -1,10 +1,10 @@
 <?php
 
-namespace DomainGenie\OAuthLib;
+namespace plib\library;
 
 class OAuthClient
 {
-    public static function test(){
+    public static function test(): string{
         echo 'Hi';
         \pm_Log::info('Hi');
         return 'hi';
